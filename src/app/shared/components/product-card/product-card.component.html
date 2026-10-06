@@ -1,0 +1,82 @@
+<div
+  id="product-card"
+  class="bg-white border border-gray-100 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg hover:border-primary-200 transition-all duration-300 hover:-translate-y-1 group relative flex flex-col h-full"
+>
+  <div class="relative overflow-hidden bg-gray-50 flex items-center justify-center">
+    <a [routerLink]="['/products', prod()._id, prod().slug]" class="block w-full">
+      <img 
+        class="w-full h-60 object-contain bg-white group-hover:scale-105 transition-transform duration-500" 
+        [alt]="prod().title" 
+        [src]="prod().imageCover" 
+      />
+    </a>
+    <div class="absolute top-3 right-3 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+      <button
+        [disabled]="isWishlistLoading()"
+        (click)="onToggleWishlist(prod())"
+        class="bg-white h-9 w-9 rounded-full flex items-center justify-center transition-all shadow-md cursor-pointer hover:scale-110 active:scale-95 disabled:opacity-50"
+        [class]="isInWishlist() ? 'text-red-500' : 'text-gray-400 hover:text-red-500'"
+        title="Add to wishlist"
+      >
+        <i class="fa-heart text-sm" [class.far]="!isInWishlist()" [class.fas]="isInWishlist()"></i>
+      </button>
+      
+      <a
+        class="bg-white h-9 w-9 rounded-full flex items-center justify-center text-gray-400 hover:text-primary-500 transition-all shadow-md cursor-pointer hover:scale-110 active:scale-95"
+        [routerLink]="['/products', prod()._id, prod().slug]"
+        title="View details"
+      >
+        <i class="far fa-eye text-sm"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="p-4 flex flex-col justify-between flex-grow">
+    <div>
+      <div class="text-2xs text-gray-400 font-semibold uppercase tracking-wider mb-1 line-clamp-1">
+        {{ prod().category.name }}
+      </div>
+      <h3 class="font-bold text-gray-800 text-sm sm:text-base mb-1 line-clamp-1 group-hover:text-primary-600 transition-colors" [title]="prod().title">
+        <a [routerLink]="['/products', prod()._id, prod().slug]">{{ prod().title }}</a>
+      </h3>
+      
+      <!-- Rating Section -->
+      <div class="flex items-center mb-3">
+        <div class="flex text-amber-400 mr-2 gap-0.5">
+          @for (star of [1, 2, 3, 4, 5]; track star) {
+            @if (prod().ratingsAverage >= star) {
+              <i class="fas fa-star text-[11px]"></i>
+            } @else if (prod().ratingsAverage >= star - 0.5) {
+              <i class="fas fa-star-half-alt text-[11px]"></i>
+            } @else {
+              <i class="far fa-star text-[11px]"></i>
+            }
+          }
+        </div>
+        <span class="text-2xs text-gray-500 font-medium mt-0.5">
+          {{ prod().ratingsAverage }} ({{ prod().ratingsQuantity }})
+        </span>
+      </div>
+    </div>
+
+    <!-- Pricing & Actions -->
+    <div class="flex items-center justify-between mt-auto pt-3 border-t border-gray-50">
+      <span class="text-base sm:text-lg font-extrabold text-primary-600">
+        {{ prod().price | currency: 'EGP' : 'symbol-narrow' }}
+      </span>
+      <button
+        [disabled]="isCartLoading()"
+        (click)="onAddToCart(prod())"
+        class="h-9 w-9 sm:h-10 sm:w-10 rounded-full flex items-center justify-center transition-all bg-primary-500 text-white hover:bg-primary-600 hover:scale-105 active:scale-95 shadow-md disabled:opacity-70 cursor-pointer"
+        tabindex="0"
+        title="Add to cart"
+      >
+        @if (isCartLoading()) {
+          <i class="fas fa-spinner fa-spin text-xs"></i>
+        } @else {
+          <i class="fas fa-plus text-xs"></i>
+        }
+      </button>
+    </div>
+  </div>
+</div>

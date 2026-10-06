@@ -1,0 +1,66 @@
+swiper-container {
+  width: 100%;
+  height: 260px;
+  --swiper-theme-color: #0aad0a;
+  --swiper-navigation-size: 20px;
+}
+
+@media (min-width: 640px) {
+  swiper-container {
+    height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  swiper-container {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  swiper-container {
+    height: 480px;
+  }
+}
+
+swiper-slide {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+/* Style Swiper arrow buttons through shadow DOM parts */
+swiper-container::part(button-next),
+swiper-container::part(button-prev) {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #0aad0a;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+swiper-container::part(button-next):hover,
+swiper-container::part(button-prev):hover {
+  background-color: #0aad0a;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+swiper-container::part(button-next):active,
+swiper-container::part(button-prev):active {
+  transform: scale(0.95);
+}
+
+/* Style active pagination bullet */
+swiper-container::part(pagination-bullet-active) {
+  background: #0aad0a;
+  width: 24px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}

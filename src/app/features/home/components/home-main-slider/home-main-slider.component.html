@@ -1,0 +1,77 @@
+<div class="container mx-auto px-4 py-6">
+  <div class="relative rounded-2xl overflow-hidden shadow-md bg-gray-100">
+    <swiper-container
+      [slides-per-view]="1"
+      [pagination]="{
+        clickable: true
+      }"
+      [navigation]="true"
+      [loop]="true"
+      class="h-[260px] sm:h-[350px] md:h-[400px] lg:h-[480px] w-full"
+    >
+      <!-- Slide 1 -->
+      <swiper-slide>
+        <div class="relative text-white h-full w-full">
+          <img src="/images/slider-image-1.jpeg" class="w-full h-full object-cover" alt="Organic Fruits & Vegetables" />
+          <div class="absolute inset-0 bg-gradient-to-r from-emerald-950/85 via-emerald-900/60 to-transparent flex flex-col justify-center px-6 sm:px-12 md:px-20 lg:px-24 gap-2 sm:gap-4">
+            <span class="bg-primary-500/90 text-white font-bold text-2xs sm:text-xs px-3 py-1 rounded-full w-fit uppercase tracking-wider">Weekend Special</span>
+            <h2 class="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight max-w-lg">Fast & Free Delivery</h2>
+            <p class="text-xs sm:text-sm md:text-base lg:text-xl text-white/90 max-w-md">Same Day Delivery Available on all organic groceries</p>
+            <div class="flex gap-3 sm:gap-4 mt-2 sm:mt-4">
+              <button class="btn btn-primary bg-white text-emerald-900 border-white hover:bg-emerald-50 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold shadow-md cursor-pointer transition-all">Order Now</button>
+              <button class="btn btn-outline border-white text-white hover:bg-white/10 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold cursor-pointer transition-all">Delivery Info</button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+
+      <!-- Slide 2 -->
+      <swiper-slide>
+        <div class="relative text-white h-full w-full">
+          <img src="/images/slider-image-2.jpeg" class="w-full h-full object-cover" alt="Fresh Bakery & Snacks" />
+          <div class="absolute inset-0 bg-gradient-to-r from-emerald-950/85 via-emerald-900/60 to-transparent flex flex-col justify-center px-6 sm:px-12 md:px-20 lg:px-24 gap-2 sm:gap-4">
+            <span class="bg-amber-500/90 text-white font-bold text-2xs sm:text-xs px-3 py-1 rounded-full w-fit uppercase tracking-wider">Super Saver</span>
+            <h2 class="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight max-w-lg">Fresh Grocery Deals</h2>
+            <p class="text-xs sm:text-sm md:text-base lg:text-xl text-white/90 max-w-md">Save up to 30% off this week on daily essential selections</p>
+            <div class="flex gap-3 sm:gap-4 mt-2 sm:mt-4">
+              <button class="btn btn-primary bg-white text-emerald-900 border-white hover:bg-emerald-50 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold shadow-md cursor-pointer transition-all">Shop Deals</button>
+              <button class="btn btn-outline border-white text-white hover:bg-white/10 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold cursor-pointer transition-all">View Flyer</button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+
+      <!-- Slide 3 -->
+      <swiper-slide>
+        <div class="relative text-white h-full w-full">
+          <img src="/images/slider-image-3.jpeg" class="w-full h-full object-cover" alt="Healthy Juices & Dairy" />
+          <div class="absolute inset-0 bg-gradient-to-r from-emerald-950/85 via-emerald-900/60 to-transparent flex flex-col justify-center px-6 sm:px-12 md:px-20 lg:px-24 gap-2 sm:gap-4">
+            <span class="bg-teal-500/90 text-white font-bold text-2xs sm:text-xs px-3 py-1 rounded-full w-fit uppercase tracking-wider">100% Organic</span>
+            <h2 class="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight max-w-lg">Healthy Organic Life</h2>
+            <p class="text-xs sm:text-sm md:text-base lg:text-xl text-white/90 max-w-md">Certified fresh organic produce sourced directly from farmers</p>
+            <div class="flex gap-3 sm:gap-4 mt-2 sm:mt-4">
+              <button class="btn btn-primary bg-white text-emerald-900 border-white hover:bg-emerald-50 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold shadow-md cursor-pointer transition-all">Learn More</button>
+              <button class="btn btn-outline border-white text-white hover:bg-white/10 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold cursor-pointer transition-all">Explore Farm</button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+
+      <!-- Slide 4 -->
+      <swiper-slide>
+        <div class="relative text-white h-full w-full">
+          <img src="/images/banner-4.jpeg" class="w-full h-full object-cover" alt="Fresh Greens" />
+          <div class="absolute inset-0 bg-gradient-to-r from-emerald-950/85 via-emerald-900/60 to-transparent flex flex-col justify-center px-6 sm:px-12 md:px-20 lg:px-24 gap-2 sm:gap-4">
+            <span class="bg-red-500/90 text-white font-bold text-2xs sm:text-xs px-3 py-1 rounded-full w-fit uppercase tracking-wider">Big Discount</span>
+            <h2 class="font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight max-w-lg">Best Price Guarantee</h2>
+            <p class="text-xs sm:text-sm md:text-base lg:text-xl text-white/90 max-w-md">Get the lowest market rates on fresh vegetables everyday</p>
+            <div class="flex gap-3 sm:gap-4 mt-2 sm:mt-4">
+              <button class="btn btn-primary bg-white text-emerald-900 border-white hover:bg-emerald-50 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold shadow-md cursor-pointer transition-all">Buy Now</button>
+              <button class="btn btn-outline border-white text-white hover:bg-white/10 px-5 sm:px-7 rounded-full text-xs sm:text-sm h-10 font-semibold cursor-pointer transition-all">Delivery rates</button>
+            </div>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</div>

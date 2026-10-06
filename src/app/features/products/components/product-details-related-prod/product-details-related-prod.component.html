@@ -1,0 +1,54 @@
+<div class="flex justify-between items-center mb-6">
+  <div class="flex items-center gap-3">
+    <div class="h-8 w-1.5 bg-linear-to-b from-emerald-500 to-emerald-700 rounded-full"></div>
+    <h2 class="text-2xl font-bold text-gray-800">
+      You May Also <span class="text-emerald-600">Like</span>
+    </h2>
+  </div>
+  <div class="flex space-x-2">
+    <button
+      class="h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-primary-100 hover:text-primary-600 transition"
+    >
+      <svg
+        data-prefix="fas"
+        data-icon="chevron-left"
+        class="svg-inline--fa fa-chevron-left"
+        role="img"
+        viewBox="0 0 320 512"
+        aria-hidden="true"
+      >
+        <path
+          fill="currentColor"
+          d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+        ></path></svg
+      ><span class="sr-only">Previous</span></button
+    ><button
+      class="h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-primary-100 hover:text-primary-600 transition"
+    >
+      <svg
+        data-prefix="fas"
+        data-icon="chevron-right"
+        class="svg-inline--fa fa-chevron-right"
+        role="img"
+        viewBox="0 0 320 512"
+        aria-hidden="true"
+      >
+        <path
+          fill="currentColor"
+          d="M311.1 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L243.2 256 73.9 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+        ></path></svg
+      ><span class="sr-only">Next</span>
+    </button>
+  </div>
+</div>
+@if (!allProducts()) {
+  <app-loading-data-spinner />
+} @else {
+  <div class="container py-10">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      @for (prod of allProducts(); track prod._id) {
+        <app-product-card [prod]="prod" />
+      }
+    </div>
+  </div>
+}

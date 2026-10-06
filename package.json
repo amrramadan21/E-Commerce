@@ -24,6 +24,8 @@
   "private": true,
   "packageManager": "npm@11.8.0",
   "dependencies": {
+    "@angular/animations": "^21.2.12",
+    "@angular/cdk": "^21.2.10",
     "@angular/common": "^21.1.0",
     "@angular/compiler": "^21.1.0",
     "@angular/core": "^21.1.0",
@@ -32,8 +34,19 @@
     "@angular/platform-server": "^21.1.0",
     "@angular/router": "^21.1.0",
     "@angular/ssr": "^21.1.2",
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "@ng-icons/core": "^31.4.0",
+    "@rxweb/reactive-form-validators": "^13.0.1",
     "express": "^5.1.0",
+    "flowbite": "^4.0.1",
+    "flowbite-angular": "^21.0.0",
+    "jwt-decode": "^4.0.0",
+    "ng-primitives": "^0.90.0",
+    "ngx-pagination": "^6.0.3",
+    "ngx-toastr": "^20.0.5",
     "rxjs": "~7.8.0",
+    "swiper": "^12.1.4",
+    "tailwind-merge": "^3.5.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

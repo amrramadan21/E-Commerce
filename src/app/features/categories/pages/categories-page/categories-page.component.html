@@ -1,0 +1,30 @@
+<app-page-header [title]="pageTitle" [description]="pageDescription" [breadCrumbs]="breadCrumbs" />
+
+<section>
+  <div class="container mx-auto px-4 my-10">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      @for (cat of allCategories(); track $index) {
+      <a class="group bg-white rounded-2xl border border-gray-100 p-4 sm:p-6 shadow-sm hover:shadow-xl hover:border-primary-200 transition-all duration-300 hover:-translate-y-1"
+        [routerLink]="['/products']" [queryParams]="{ category: cat._id }">
+        <div class="aspect-square rounded-xl overflow-hidden bg-gray-50 mb-4">
+          <img alt="Women's Fashion"
+            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            [src]="cat.image" />
+        </div>
+        <h3 class="font-bold text-gray-900 text-center group-hover:text-primary-600 transition-colors">
+          {{ cat.name }}
+        </h3>
+        <div class="flex justify-center mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
+          <span class="text-xs text-primary-600 flex items-center gap-1">View Subcategories<svg data-prefix="fas"
+              data-icon="arrow-right" class="svg-inline--fa fa-arrow-right text-[10px]" role="img" viewBox="0 0 512 512"
+              aria-hidden="true">
+              <path fill="currentColor"
+                d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-105.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+              </path>
+            </svg></span>
+        </div>
+      </a>
+      }
+    </div>
+  </div>
+</section>

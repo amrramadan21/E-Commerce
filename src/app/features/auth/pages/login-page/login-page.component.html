@@ -1,0 +1,115 @@
+<section>
+  <div class="container mx-auto my-10">
+    <div class="md:grid grid-cols-2 gap-10">
+      <!-- left column -->
+      <div>
+        <div class="hidden lg:block">
+          <div class="text-center space-y-6">
+            <img
+              class="w-full h-96 object-cover rounded-2xl shadow-lg"
+              alt="fresh vegetables and fruits shopping cart illustration, modern clean style, green theme"
+              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/2e5810ff3e-e750761ebcd4ae5907db.png"
+            />
+            <div class="space-y-4">
+              <h2 class="text-3xl font-bold text-gray-800">
+                FreshCart - Your One-Stop Shop for Fresh Products
+              </h2>
+              <p class="text-lg text-gray-600">
+                Join thousands of happy customers who trust FreshCart for their daily grocery needs
+              </p>
+              <div class="flex items-center justify-center space-x-8 text-sm text-gray-500">
+                <div class="flex items-center gap-2">
+                  <i class="fas fa-truck text-primary-600"></i>
+                  Free Delivery
+                </div>
+                <div class="flex items-center gap-2">
+                  <i class="fas fa-shield-halved text-primary-600"></i>
+                  Secure Payment
+                </div>
+                <div class="flex items-center gap-2">
+                  <i class="fas fa-clock text-primary-600"></i>
+                  24/7 Support
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- right column form -->
+      <div>
+        <div class="w-full">
+          <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
+            <!-- login title -->
+            <div class="text-center mb-8">
+              <div class="flex items-center justify-center mb-4">
+                <span class="text-3xl font-bold text-primary-600"
+                  >Fresh<span class="text-gray-800">Cart</span></span
+                >
+              </div>
+              <h1 class="text-2xl font-bold text-gray-800 mb-2">Welcome Back!</h1>
+              <p class="text-gray-600">Sign in to continue your fresh shopping experience</p>
+            </div>
+
+            <!-- Login / Sign Up Toggle -->
+            <div class="flex rounded-xl bg-gray-100 p-1 mb-8">
+              <span
+                class="flex-1 text-center py-2.5 rounded-lg text-sm font-semibold transition-all bg-primary-600 text-white shadow-sm"
+              >
+                Sign In
+              </span>
+              <a
+                [routerLink]="['/register']"
+                [queryParams]="redirectUrl ? { redirectUrl: redirectUrl } : {}"
+                class="flex-1 text-center py-2.5 rounded-lg text-sm font-semibold transition-all text-gray-500 hover:text-gray-700"
+              >
+                Sign Up
+              </a>
+            </div>
+
+            <!-- auth method selector -->
+            <app-auth-method-selector />
+
+            <!-- login with email and password message -->
+            <div class="relative my-6">
+              <div class="absolute inset-0 flex items-center">
+                <div class="w-full border-t border-gray-200"></div>
+              </div>
+              <div class="relative flex justify-center text-sm">
+                <span class="px-4 bg-white text-gray-500 font-medium">OR CONTINUE WITH EMAIL</span>
+              </div>
+            </div>
+
+            <!-- login form -->
+            <app-login-form />
+
+            <!-- login form footer -->
+            <div class="text-center mt-8 pt-6 border-t border-gray-100">
+              <p class="text-gray-600">
+                New to FreshCart?<a
+                  class="text-primary-600 hover:text-primary-700 ms-2 font-semibold cursor-pointer"
+                  [routerLink]="['/register']"
+                  [queryParams]="redirectUrl ? { redirectUrl: redirectUrl } : {}"
+                  >Create an account</a
+                >
+              </p>
+            </div>
+            <div class="flex items-center justify-center space-x-6 mt-6 text-xs text-gray-500">
+              <div class="flex items-center gap-1.5">
+                <i class="fas fa-lock"></i>
+                SSL Secured
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i class="fas fa-users"></i>
+                50K+ Users
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i class="fas fa-star"></i>
+                4.9 Rating
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

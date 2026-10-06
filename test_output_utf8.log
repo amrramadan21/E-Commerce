@@ -1,0 +1,168 @@
+﻿
+> e-commerce@0.0.0 test
+> ng test
+
+[33m>[39m Building...
+[32mΓêÜ[39m Building...
+[1mInitial chunk files[22m                                                                                         [2m | [22m[1mNames[22m                                                                                                    [2m | [22m [1mRaw size[22m
+[32mstyles.css[39m                                                                                                  [2m | [22m[2mstyles[22m                                                                                                   [2m | [22m[36m211.84 kB[39m[2m | [22m
+[32mspec-app-features-checkout-pages-checkout-page-checkout-page.component.js[39m                                   [2m | [22m[2mspec-app-features-checkout-pages-checkout-page-checkout-page.component[22m                                   [2m | [22m [36m68.63 kB[39m[2m | [22m
+[32mchunk-7UK7VJ4L.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m33.31 kB[39m[2m | [22m
+[32mchunk-UOPFXP4U.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m30.94 kB[39m[2m | [22m
+[32mchunk-R4OUQHQL.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m27.38 kB[39m[2m | [22m
+[32mchunk-ZLYVPOGW.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m25.69 kB[39m[2m | [22m
+[32mchunk-EKT6LERK.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m23.55 kB[39m[2m | [22m
+[32mchunk-GH5XW2MZ.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m23.41 kB[39m[2m | [22m
+[32mspec-app-features-auth-pages-register-page-register-page.component.js[39m                                       [2m | [22m[2mspec-app-features-auth-pages-register-page-register-page.component[22m                                       [2m | [22m [36m19.88 kB[39m[2m | [22m
+[32mspec-app-features-auth-pages-login-page-login-page.component.js[39m                                             [2m | [22m[2mspec-app-features-auth-pages-login-page-login-page.component[22m                                             [2m | [22m [36m19.23 kB[39m[2m | [22m
+[32mchunk-7JI76PF6.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m15.43 kB[39m[2m | [22m
+[32mspec-app-features-checkout-pages-all-order-page-all-order-page.component.js[39m                                 [2m | [22m[2mspec-app-features-checkout-pages-all-order-page-all-order-page.component[22m                                 [2m | [22m [36m13.95 kB[39m[2m | [22m
+[32mchunk-YGZL2JMX.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m12.44 kB[39m[2m | [22m
+[32mchunk-IPUKTCTX.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m11.58 kB[39m[2m | [22m
+[32mchunk-4IPKFTZB.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m11.41 kB[39m[2m | [22m
+[32mchunk-WHGTN3IE.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m11.26 kB[39m[2m | [22m
+[32mchunk-UDQ64JDY.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m10.20 kB[39m[2m | [22m
+[32mchunk-IECFU4OI.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m [36m10.19 kB[39m[2m | [22m
+[32mspec-app-features-auth-pages-forget-password-page-forget-password-page.component.js[39m                         [2m | [22m[2mspec-app-features-auth-pages-forget-password-page-forget-password-page.component[22m                         [2m | [22m  [36m9.21 kB[39m[2m | [22m
+[32mspec-app-features-brands-pages-brands-page-brands-page.component.js[39m                                         [2m | [22m[2mspec-app-features-brands-pages-brands-page-brands-page.component[22m                                         [2m | [22m  [36m8.71 kB[39m[2m | [22m
+[32mchunk-JEBCZVNE.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m8.29 kB[39m[2m | [22m
+[32mspec-app-features-products-pages-products-page-products-page.component.js[39m                                   [2m | [22m[2mspec-app-features-products-pages-products-page-products-page.component[22m                                   [2m | [22m  [36m7.56 kB[39m[2m | [22m
+[32mspec-app-features-categories-pages-categories-page-categories-page.component.js[39m                             [2m | [22m[2mspec-app-features-categories-pages-categories-page-categories-page.component[22m                             [2m | [22m  [36m7.41 kB[39m[2m | [22m
+[32mchunk-4OQX5WJZ.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m7.14 kB[39m[2m | [22m
+[32mchunk-PBRBBPWA.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m6.75 kB[39m[2m | [22m
+[32mchunk-OXNRSXM5.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m6.01 kB[39m[2m | [22m
+[32mchunk-3TTGPNWV.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m5.59 kB[39m[2m | [22m
+[32mspec-app-features-products-pages-product-details-page-product-details-page.component.js[39m                     [2m | [22m[2mspec-app-features-products-pages-product-details-page-product-details-page.component[22m                     [2m | [22m  [36m4.67 kB[39m[2m | [22m
+[32mchunk-EJGRYZDR.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m4.67 kB[39m[2m | [22m
+[32mchunk-H3QITW4E.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m4.36 kB[39m[2m | [22m
+[32mchunk-CGZBV6BD.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m4.07 kB[39m[2m | [22m
+[32mspec-app-features-home-pages-home-page-home-page.component.js[39m                                               [2m | [22m[2mspec-app-features-home-pages-home-page-home-page.component[22m                                               [2m | [22m  [36m3.18 kB[39m[2m | [22m
+[32mspec-app-core-layouts-guest-layout-guest-layout.component.js[39m                                                [2m | [22m[2mspec-app-core-layouts-guest-layout-guest-layout.component[22m                                                [2m | [22m  [36m2.95 kB[39m[2m | [22m
+[32mspec-app-core-layouts-user-layout-user-layout.component.js[39m                                                  [2m | [22m[2mspec-app-core-layouts-user-layout-user-layout.component[22m                                                  [2m | [22m  [36m2.92 kB[39m[2m | [22m
+[32mspec-app-features-static-not-found-page-not-found-page.component.js[39m                                         [2m | [22m[2mspec-app-features-static-not-found-page-not-found-page.component[22m                                         [2m | [22m  [36m2.88 kB[39m[2m | [22m
+[32mchunk-GW3RMZCE.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m2.25 kB[39m[2m | [22m
+[32mspec-app-core-layouts-auth-layout-auth-layout.component.js[39m                                                  [2m | [22m[2mspec-app-core-layouts-auth-layout-auth-layout.component[22m                                                  [2m | [22m  [36m2.13 kB[39m[2m | [22m
+[32mchunk-662ZYT7E.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m2.10 kB[39m[2m | [22m
+[32mspec-app-features-auth-components-input-auth-input-auth.component.js[39m                                        [2m | [22m[2mspec-app-features-auth-components-input-auth-input-auth.component[22m                                        [2m | [22m  [36m2.00 kB[39m[2m | [22m
+[32mchunk-3UHBLL3L.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m1.97 kB[39m[2m | [22m
+[32mspec-app-app.js[39m                                                                                             [2m | [22m[2mspec-app-app[22m                                                                                             [2m | [22m  [36m1.86 kB[39m[2m | [22m
+[32mchunk-3R77EN4Q.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m1.78 kB[39m[2m | [22m
+[32mchunk-CI7EVGF7.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m1.50 kB[39m[2m | [22m
+[32minit-testbed.js[39m                                                                                             [2m | [22m[2minit-testbed[22m                                                                                             [2m | [22m  [36m1.21 kB[39m[2m | [22m
+[32mchunk-YGTGPD4P.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m1.18 kB[39m[2m | [22m
+[32mchunk-OOLG4UPR.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m1.13 kB[39m[2m | [22m
+[32mspec-app-features-products-components-product-details-related-prod-product-details-related-prod.component.js[39m[2m | [22m[2mspec-app-features-products-components-product-details-related-prod-product-details-related-prod.component[22m[2m | [22m  [36m1.11 kB[39m[2m | [22m
+[32mspec-app-core-guards-logged.guard.js[39m                                                                        [2m | [22m[2mspec-app-core-guards-logged.guard[22m                                                                        [2m | [22m  [36m1.11 kB[39m[2m | [22m
+[32mspec-app-core-guards-auth.guard.js[39m                                                                          [2m | [22m[2mspec-app-core-guards-auth.guard[22m                                                                          [2m | [22m  [36m1.10 kB[39m[2m | [22m
+[32mchunk-54Z5CX63.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m  [36m1.08 kB[39m[2m | [22m
+[32mspec-app-features-home-components-home-products-home-products.component.js[39m                                  [2m | [22m[2mspec-app-features-home-components-home-products-home-products.component[22m                                  [2m | [22m[36m995 bytes[39m[2m | [22m
+[32mvitest-mock-patch.js[39m                                                                                        [2m | [22m[2mvitest-mock-patch[22m                                                                                        [2m | [22m[36m969 bytes[39m[2m | [22m
+[32mspec-app-features-products-components-product-details-product-details.component.js[39m                          [2m | [22m[2mspec-app-features-products-components-product-details-product-details.component[22m                          [2m | [22m[36m929 bytes[39m[2m | [22m
+[32mspec-app-features-auth-components-forget-password-form-forget-password-form.component.js[39m                    [2m | [22m[2mspec-app-features-auth-components-forget-password-form-forget-password-form.component[22m                    [2m | [22m[36m897 bytes[39m[2m | [22m
+[32mspec-app-shared-components-product-card-product-card.component.js[39m                                           [2m | [22m[2mspec-app-shared-components-product-card-product-card.component[22m                                           [2m | [22m[36m883 bytes[39m[2m | [22m
+[32mspec-app-features-auth-components-register-form-register-form.component.js[39m                                  [2m | [22m[2mspec-app-features-auth-components-register-form-register-form.component[22m                                  [2m | [22m[36m875 bytes[39m[2m | [22m
+[32mspec-app-features-auth-components-login-form-login-form.component.js[39m                                        [2m | [22m[2mspec-app-features-auth-components-login-form-login-form.component[22m                                        [2m | [22m[36m851 bytes[39m[2m | [22m
+[32mspec-app-features-home-components-home-website-info-banner-home-website-info-banner.component.js[39m            [2m | [22m[2mspec-app-features-home-components-home-website-info-banner-home-website-info-banner.component[22m            [2m | [22m[36m835 bytes[39m[2m | [22m
+[32mspec-app-core-components-navbar-navbar.component.js[39m                                                         [2m | [22m[2mspec-app-core-components-navbar-navbar.component[22m                                                         [2m | [22m[36m835 bytes[39m[2m | [22m
+[32mspec-app-features-home-components-home-categories-home-categories.component.js[39m                              [2m | [22m[2mspec-app-features-home-components-home-categories-home-categories.component[22m                              [2m | [22m[36m831 bytes[39m[2m | [22m
+[32mspec-app-features-products-components-product-details-info-product-details-info.component.js[39m                [2m | [22m[2mspec-app-features-products-components-product-details-info-product-details-info.component[22m                [2m | [22m[36m815 bytes[39m[2m | [22m
+[32mspec-app-features-auth-components-auth-method-selector-auth-method-selector.component.js[39m                    [2m | [22m[2mspec-app-features-auth-components-auth-method-selector-auth-method-selector.component[22m                    [2m | [22m[36m807 bytes[39m[2m | [22m
+[32mspec-app-shared-components-loading-data-spinner-loading-data-spinner.component.js[39m                           [2m | [22m[2mspec-app-shared-components-loading-data-spinner-loading-data-spinner.component[22m                           [2m | [22m[36m793 bytes[39m[2m | [22m
+[32mspec-app-shared-components-website-info-banner-website-info-banner.component.js[39m                             [2m | [22m[2mspec-app-shared-components-website-info-banner-website-info-banner.component[22m                             [2m | [22m[36m785 bytes[39m[2m | [22m
+[32mspec-app-features-home-components-home-main-slider-home-main-slider.component.js[39m                            [2m | [22m[2mspec-app-features-home-components-home-main-slider-home-main-slider.component[22m                            [2m | [22m[36m775 bytes[39m[2m | [22m
+[32mspec-app-features-home-components-home-contact-us-home-contact-us.component.js[39m                              [2m | [22m[2mspec-app-features-home-components-home-contact-us-home-contact-us.component[22m                              [2m | [22m[36m767 bytes[39m[2m | [22m
+[32mspec-app-shared-components-page-header-page-header.component.js[39m                                             [2m | [22m[2mspec-app-shared-components-page-header-page-header.component[22m                                             [2m | [22m[36m755 bytes[39m[2m | [22m
+[32mspec-app-features-home-components-home-offers-home-offers.component.js[39m                                      [2m | [22m[2mspec-app-features-home-components-home-offers-home-offers.component[22m                                      [2m | [22m[36m739 bytes[39m[2m | [22m
+[32mspec-app-shared-components-bread-crumbs-bread-crumbs.component.js[39m                                           [2m | [22m[2mspec-app-shared-components-bread-crumbs-bread-crumbs.component[22m                                           [2m | [22m[36m733 bytes[39m[2m | [22m
+[32mspec-app-core-components-footer-footer.component.js[39m                                                         [2m | [22m[2mspec-app-core-components-footer-footer.component[22m                                                         [2m | [22m[36m685 bytes[39m[2m | [22m
+[32mspec-app-features-categories-services-categories.service.js[39m                                                 [2m | [22m[2mspec-app-features-categories-services-categories.service[22m                                                 [2m | [22m[36m568 bytes[39m[2m | [22m
+[32mspec-app-features-auth-services-auth.service.js[39m                                                             [2m | [22m[2mspec-app-features-auth-services-auth.service[22m                                                             [2m | [22m[36m556 bytes[39m[2m | [22m
+[32mspec-app-features-checkout-services-checkout.service.js[39m                                                     [2m | [22m[2mspec-app-features-checkout-services-checkout.service[22m                                                     [2m | [22m[36m554 bytes[39m[2m | [22m
+[32mspec-app-features-checkout-services-orders.service.js[39m                                                       [2m | [22m[2mspec-app-features-checkout-services-orders.service[22m                                                       [2m | [22m[36m544 bytes[39m[2m | [22m
+[32mchunk-VZG53NE7.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m[36m259 bytes[39m[2m | [22m
+[32mchunk-VX3X7OPF.js[39m                                                                                           [2m | [22m[2m-[22m                                                                                                        [2m | [22m[36m211 bytes[39m[2m | [22m
+
+[1m [22m                                                                                                           [2m | [22m[1mInitial total[22m                                                                                            [2m | [22m[1m719.47 kB[22m
+
+Application bundle generation complete. [2.127 seconds] - 2026-05-30T14:00:05.760Z
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv4.1.5 [39m[90mC:/Users/LOQ/Desktop/Amr/Web/Front-End/Projects/Demo/Assignment Demo/E-commerce[39m
+
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/shared/components/page-header/page-header.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 55[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 54[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/app.spec.ts [2m([22m[2m2 tests[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 61[2mms[22m[39m
+     [32mΓ£ô[39m should create the app[32m 44[2mms[22m[39m
+[31m     [31m├ù[31m should render title[39m[32m 16[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/categories/pages/categories-page/categories-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 58[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 56[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/static/not-found-page/not-found-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 58[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 56[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/shared/components/bread-crumbs/bread-crumbs.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 78[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 76[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/brands/pages/brands-page/brands-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 52[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 50[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/products/components/product-details/product-details.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 41[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 39[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/products/pages/product-details-page/product-details-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 46[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 44[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/checkout/pages/checkout-page/checkout-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 112[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 111[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/home/components/home-categories/home-categories.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 94[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/products/components/product-details-related-prod/product-details-related-prod.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 54[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 52[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/auth/pages/forget-password-page/forget-password-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 75[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 73[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/shared/components/product-card/product-card.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 40[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 38[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/home/components/home-contact-us/home-contact-us.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/shared/components/loading-data-spinner/loading-data-spinner.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 25[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/core/components/footer/footer.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/home/components/home-website-info-banner/home-website-info-banner.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 28[2mms[22m[39m
+[90mstdout[2m | src/app/features/home/components/home-main-slider/home-main-slider.component.spec.ts[2m > [22m[2mHomeMainSliderComponent[2m > [22m[2mshould create
+[22m[39mbrowser
+this.platform
+
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/home/components/home-products/home-products.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 104[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/auth/pages/login-page/login-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 79[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 77[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/home/components/home-offers/home-offers.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 28[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/auth/components/forget-password-form/forget-password-form.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 42[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/auth/components/login-form/login-form.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 53[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 51[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/shared/components/website-info-banner/website-info-banner.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 17[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/auth/components/register-form/register-form.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 66[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/products/components/product-details-info/product-details-info.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 23[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/auth/components/input-auth/input-auth.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 7[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/home/components/home-main-slider/home-main-slider.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 30[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/products/pages/products-page/products-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 45[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 43[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/auth/services/auth.service.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/core/guards/logged.guard.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 2[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/categories/services/categories.service.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 5[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/checkout/services/checkout.service.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 3[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/auth/components/auth-method-selector/auth-method-selector.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 21[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/checkout/services/orders.service.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 4[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/core/guards/auth.guard.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 1[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/core/layouts/auth-layout/auth-layout.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 12[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/checkout/pages/all-order-page/all-order-page.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 25[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/features/auth/pages/register-page/register-page.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 68[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 66[2mms[22m[39m
+[90mstdout[2m | src/app/features/home/pages/home-page/home-page.component.spec.ts[2m > [22m[2mHomePageComponent[2m > [22m[2mshould create
+[22m[39mbrowser
+this.platform
+
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/core/layouts/user-layout/user-layout.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 46[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 44[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/core/layouts/guest-layout/guest-layout.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 55[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 54[2mms[22m[39m
+ [31mΓ¥»[39m [30m[42m E-commerce [49m[39m src/app/core/components/navbar/navbar.component.spec.ts [2m([22m[2m1 test[22m[2m | [22m[31m1 failed[39m[2m)[22m[32m 44[2mms[22m[39m
+[31m     [31m├ù[31m should create[39m[32m 42[2mms[22m[39m
+ [32mΓ£ô[39m [30m[42m E-commerce [49m[39m src/app/features/home/pages/home-page/home-page.component.spec.ts [2m([22m[2m1 test[22m[2m)[22m[32m 255[2mms[22m[39m
+
+[2m Test Files [22m [1m[31m19 failed[39m[22m[2m | [22m[1m[32m23 passed[39m[22m[90m (42)[39m
+[2m      Tests [22m [1m[31m19 failed[39m[22m[2m | [22m[1m[32m24 passed[39m[22m[90m (43)[39m
+[2m     Errors [22m [1m[31m4 errors[39m[22m
+[2m   Start at [22m 17:00:06
+[2m   Duration [22m 2.95s[2m (transform 2.67s, setup 11.25s, import 7.09s, tests 1.97s, environment 57.14s)[22m
+

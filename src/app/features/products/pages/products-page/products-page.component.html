@@ -1,0 +1,23 @@
+<app-page-header [title]="pageTitle" [description]="pageDescription" [breadCrumbs]="breadCrumbs" />
+
+@if (!allProducts()) {
+  <app-loading-data-spinner />
+} @else {
+  <div class="container mx-auto px-4 py-10 max-w-7xl">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+      @for (
+        prod of allProducts()!
+          | paginate
+            : { id: 'foo', itemsPerPage: limit, currentPage: page, totalItems: totalProducts };
+        track $index
+      ) {
+        <app-product-card [prod]="prod" />
+      }
+    </div>
+  </div>
+
+  <!-- pagination -->
+  <div class="flex justify-center items-center my-5">
+    <pagination-controls id="foo" (pageChange)="changePage($event)"></pagination-controls>
+  </div>
+}

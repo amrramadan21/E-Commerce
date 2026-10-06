@@ -1,0 +1,116 @@
+<section>
+  <div class="container my-10 mx-auto">
+    <div class="md:grid grid-cols-2 gap-5">
+      <div>
+        <div>
+          <h1 class="text-4xl font-bold">
+            Welcome to <span class="text-primary-600">FreshCart</span>
+          </h1>
+          <p class="text-xl mt-2 mb-4">
+            Join thousands of happy customers who enjoy fresh groceries delivered right to their
+            doorstep.
+          </p>
+          <ul class="*:flex *:items-start *:gap-4 space-y-6 my-8">
+            <li>
+              <div
+                class="icon size-12 text-lg bg-primary-200 text-primary-600 rounded-full flex justify-center items-center shrink-0"
+              >
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="content">
+                <h2 class="text-lg font-semibold">Premium Quality</h2>
+                <p class="text-gray-600">
+                  Premium quality products sourced from trusted suppliers.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div
+                class="icon size-12 text-lg bg-primary-200 text-primary-600 rounded-full flex justify-center items-center shrink-0"
+              >
+                <i class="fas fa-truck-fast"></i>
+              </div>
+              <div class="content">
+                <h2 class="text-lg font-semibold">Fast Delivery</h2>
+                <p class="text-gray-600">Same-day delivery available in most areas</p>
+              </div>
+            </li>
+            <li>
+              <div
+                class="icon size-12 text-lg bg-primary-200 text-primary-600 rounded-full flex justify-center items-center shrink-0"
+              >
+                <i class="fas fa-shield-halved"></i>
+              </div>
+              <div class="content">
+                <h2 class="text-lg font-semibold">Secure Shopping</h2>
+                <p class="text-gray-600">Your data and payments are completely secure</p>
+              </div>
+            </li>
+          </ul>
+          <div class="review bg-white shadow-sm p-4 rounded-md">
+            <div class="author flex items-center gap-4 mb-4">
+              <div>
+                <h3>Sarah Johnson</h3>
+                <div class="rating text-yellow-300 flex gap-0.5">
+                  <i class="fas fa-star text-sm"></i>
+                  <i class="fas fa-star text-sm"></i>
+                  <i class="fas fa-star text-sm"></i>
+                  <i class="fas fa-star text-sm"></i>
+                  <i class="fas fa-star text-sm"></i>
+                </div>
+              </div>
+            </div>
+            <blockquote>
+              <p class="italic text-gray-600">
+                "FreshCart has transformed my shopping experience. The quality of the products is
+                outstanding, and the delivery is always on time. Highly recommend!"
+              </p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="bg-white rounded-2xl shadow-lg px-6 py-10">
+          <h2 class="text-center text-3xl font-semibold mb-2">Create Your Account</h2>
+          <p class="text-center text-gray-600">Start your fresh journey with us today</p>
+
+          <!-- Login / Sign Up Toggle -->
+          <div class="flex rounded-xl bg-gray-100 p-1 my-6">
+            <a
+              [routerLink]="['/login']"
+              [queryParams]="redirectUrl ? { redirectUrl: redirectUrl } : {}"
+              class="flex-1 text-center py-2.5 rounded-lg text-sm font-semibold transition-all text-gray-500 hover:text-gray-700"
+            >
+              Sign In
+            </a>
+            <span
+              class="flex-1 text-center py-2.5 rounded-lg text-sm font-semibold transition-all bg-primary-600 text-white shadow-sm"
+            >
+              Sign Up
+            </span>
+          </div>
+
+          <app-auth-method-selector [isTwoColumns]="true" />
+          <div
+            class="divider relative w-full h-0.5 bg-gray-300/30 my-4 flex items-center before:content-['or'] before:absolute before:top-1/2 before:left-1/2 before:-translate-1/2 before:bg-white before:px-4"
+            aria-hidden="true"
+          >
+            <span class="sr-only">or</span>
+          </div>
+
+          <app-register-form />
+
+          <p class="border-t pt-10 border-gray-300/30 my-4 text-center">
+            Already have an account?
+            <a
+              class="text-primary-600 hover:underline font-medium"
+              [routerLink]="['/login']"
+              [queryParams]="redirectUrl ? { redirectUrl: redirectUrl } : {}"
+              >Sign In</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
